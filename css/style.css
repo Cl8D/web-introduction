@@ -1,0 +1,183 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+/* 상단바 */
+.menu * {
+    /*display: inline;*/
+}
+
+.menu li {
+    list-style: none;
+    margin: 50px;
+}
+
+.menu li a {
+    font-weight: 600;
+    color: rgb(103, 54, 54);
+    text-decoration: none;
+}
+
+.menu ul {
+    padding-left: 0;
+}
+
+.menu {
+    font-size: 20px;
+    font-style: italic;
+    align-items: center;
+    text-align: left;
+    padding-top: 30px;
+    position: fixed;
+    top: 0;
+    /*left: 0;*/
+    /*right: 0;*/
+}
+
+/* 첫 소개 */
+#introduction{
+    background: linear-gradient(mistyrose 50%, white 50%);
+    background-size: cover;
+    padding-top: 100px;
+    text-align: center;
+}
+
+#mainHello {
+    font-weight: bold;
+    font-size: xx-large;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+#helloImage {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 30%;
+}
+
+/* 소개 속성 */
+.infoAttr{
+    font-size: large;
+    font-weight: 600;
+}
+
+.detailAttr {
+    padding-top: 5px;
+    padding-bottom: 20px;
+}
+
+/* 영화 소개 */
+.center{
+    text-align: center;
+}
+
+.moviePoster{
+    height: 350px;
+    width: 250px;
+}
+
+.movieDetail{
+    font-size: small;
+}
+
+/*section {*/
+/*    height: 100vh;*/
+/*    width: 100vw;*/
+/*}*/
+
+/* 영화 바로가기 */
+a:link    { color: #ffaaa1; }
+
+a:visited { color: #ff7d7d; text-decoration: none }
+
+a:hover   { color: #9d352d; text-decoration: none }
+
+a:active  { color: mistyrose; text-decoration: none }
+
+/* 영화 테이블 */
+table {
+    border-collapse: collapse;
+    margin: 0 auto 40px;
+    text-align: center;
+}
+table, th, td {
+    border: 1px solid black;
+    padding: 10px;
+}
+th {
+    background-color: #ffd8d4;
+}
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+tr:hover {
+    background-color: #ddd;
+}
+
+/* 방명록 */
+form {
+    width: 600px;
+    margin: 0 auto 30px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+label {
+    font-size: 15px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+/* 체크박스 */
+#likeMovie {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+input[type="text"], input[type="checkbox"] {
+    margin-right: 10px;
+    margin-bottom: 3px;
+    margin-left: 5px;
+    font-size: 13px;
+    padding: 2px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+input[type="checkbox"] {
+    width: auto;
+}
+
+button[type="submit"] {
+    margin: 0 auto 0;
+    padding: 10px 20px;
+    font-size: 15px;
+    font-weight: bold;
+    color: white;
+    background-color: #ff968f;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button[type="reset"] {
+    margin: 0 auto 0;
+    padding: 10px 20px;
+    font-size: 15px;
+    font-weight: bold;
+    color: white;
+    background-color: #a49696;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* 등록, 취소 버튼 */
+button[type="submit"]:hover {
+    background-color: #ff6151;
+}
+button[type="reset"]:hover {
+    background-color: #6b5c5b;
+}
